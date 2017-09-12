@@ -20,7 +20,7 @@ html {
   box-sizing: inherit;
 }
 
-header {
+header, .j-quote {
   text-align: center;
 }
 
