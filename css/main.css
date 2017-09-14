@@ -14,10 +14,6 @@ html {
   box-sizing: inherit;
 }
 
-header, .j-quote {
-  text-align: center;
-}
-
 li, a {
   text-decoration: none;
   list-style: none;
@@ -30,14 +26,19 @@ li, a {
   border-color: #b64c6e;
 }
 
+
 @media only screen and (min-width: 38em) {
 
   ul {
     text-align: right;
   }
 
-  h1 {
+  header-left {
     text-align: left;
+  }
+
+  header-right {
+    text-align: right;
   }
 
 }
