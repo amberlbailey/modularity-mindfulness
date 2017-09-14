@@ -14,11 +14,10 @@ html {
   box-sizing: inherit;
 }
 
-li, a {
+nav li a {
   text-decoration: none;
-  list-style: none;
   color: #b64c6e;
-  display: inline-block;
+  border-bottom: 1px solid #860927;
 }
 
 .viewing, .gravel, .symbolism {
@@ -26,6 +25,10 @@ li, a {
   border-color: #b64c6e;
 }
 
+.line {
+  border-top: 2px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+}
 
 @media only screen and (min-width: 38em) {
 
