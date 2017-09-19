@@ -18,6 +18,7 @@ nav li a {
   color: #b64c6e;
   border-color: #d89fb0;
   border-width: 2px;
+  display: inline-table;
 }
 
 .line {
@@ -35,9 +36,14 @@ nav li a:hover {
   color: #860927;
 }
 
-@media only screen and (min-width: 38em) {
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
-  ul {
-    text-align: right;
-  }
+
+@media only screen and (min-width: 60em) {
+
+
+
 }
