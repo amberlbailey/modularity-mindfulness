@@ -7,7 +7,6 @@ nav li a {
   text-decoration: none;
   color: #b64c6e;
   border-bottom: 2px solid #d89fb0;
-  padding-bottom: 3px;
 }
 
 .quote, h2, p {
@@ -36,14 +35,19 @@ nav li a:hover {
   color: #860927;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+footer {
+  color: #474747;
+  border-top: 1px solid #e2e2e2;
 }
-
 
 @media only screen and (min-width: 60em) {
 
+  .right {
+    text-align: right;
+  }
 
+  .left {
+    text-align: left;
+  }
 
 }
